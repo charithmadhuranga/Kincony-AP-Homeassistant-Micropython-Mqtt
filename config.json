@@ -1,7 +1,7 @@
 {
   "wifi": {
     "ssid": "nikhuge",
-    "password": "Skyline1234@A",
+    "password": "",
     "timeout": 30,
     "retry_attempts": 3
   },
@@ -35,5 +35,15 @@
     "log_level": "INFO",
     "gc_interval": 10000,
     "input_scan_interval": 10
+  },
+  "mqtt": {
+    "enabled": true,
+    "host": "",
+    "port": 1883,
+    "username": "",
+    "password": "",
+    "client_id": "kc868-ap",
+    "base_topic": "kc868-ap",
+    "discovery_prefix": "homeassistant"
   }
 }

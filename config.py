@@ -50,7 +50,7 @@ class Config:
             "input_scan_interval": 10  # milliseconds
         },
         "mqtt": {
-            "enabled": False,
+            "enabled": True,
             "host": "",
             "port": 1883,
             "username": "",
